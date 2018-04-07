@@ -213,7 +213,7 @@ let (, a, b, c): (, usize, usize, usize) =
     , 42
     );
 // equivalent to:
-let (a, b): (usize, usize) = (1, 2);
+let (a, b, c): (usize, usize, usize) = (1, 2, 3);
 ```
 
 ## Function arguments, universal quantification sites, and `where` clauses
