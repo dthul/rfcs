@@ -70,7 +70,7 @@ more encouraged as you have to explicitly derive fewer traits.
   if `x` and `y` are related, and `y` and `z` are related,
   then `x` and `z` must also be related.
 
-- The **transitive closure** `R+` of a transitive relation `R` is defined as:
+- The **transitive closure** `R+` of a binary relation `R` is defined as:
   ```
   R_0       = R
   R_{i + 1} = R_i ∪ {(s, u) | ∃ t. (s, t) ∈ R_i ∧ (t, u) ∈ R_i}
